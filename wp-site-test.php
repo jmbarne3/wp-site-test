@@ -8,10 +8,6 @@
  * Github Plugin URI: UCF/wp-site-test
  */
 
-if ( ! defined( 'WPINC' ) ) {
-	die;
-}
-
 if ( defined( 'WP_CLI' ) ) {
 	// Include utilities
 	include_once 'includes/class-url-tester.php';
