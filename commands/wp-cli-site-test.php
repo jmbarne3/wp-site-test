@@ -11,7 +11,10 @@ if ( ! class_exists( 'WPST_Site_Test' ) ) {
 		 * @when after_wp_load
 		 */
 		function __invoke( $args, $assoc_args ) {
-			WP_CLI::success( "Hello World" );
+			$util = new WPST_URL_Tester();
+			$util->test();
+
+			WP_CLI::success( $util->get_results() );
 		}
 	}
 
