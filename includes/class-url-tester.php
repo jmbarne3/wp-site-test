@@ -58,7 +58,7 @@ Failures        :
 ";
 
 			foreach( $this->post_failues as $post ) {
-				$output .= "$post['code']: $post['url']\n";
+				$output .= $post['code'] . ':' . $post['url'] . "\n";
 			}
 
 			return $output;
