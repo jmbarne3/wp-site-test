@@ -1,5 +1,5 @@
 {
-    "name": "ucf/wp-site-test",
+    "name": "wp-cli/wp-site-test",
     "description": "Command for automatically testing a site.",
     "type": "wp-cli-package",
     "homepage": "https://github.com/jmbarne3/wp-site-test",
