@@ -10,6 +10,8 @@ if ( ! class_exists( 'WPST_URL_Tester' ) ) {
 			$posts_failed = 0,
 			$post_failues = array();
 
+		public function __construct() {}
+
 		public function test() {
 			$args = array(
 				'post_type'      => 'any',
