@@ -2,13 +2,13 @@
     "name": "ucf/wp-site-test",
     "description": "Command for automatically testing a site.",
     "type": "wp-cli-package",
-    "homepage": "https://github.com/UCF/wp-site-test",
+    "homepage": "https://github.com/jmbarne3/wp-site-test",
     "license": "GPL3",
     "authors": [
         {
-            "name": "UCF Web Communications",
+            "name": "Jim Barnes",
             "email": "webcom@ucf.edu",
-            "homepage": "https://github.com/UCF"
+            "homepage": "https://github.com/jmbarne3"
         }
     ],
     "require": {
