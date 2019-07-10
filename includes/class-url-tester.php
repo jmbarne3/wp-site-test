@@ -33,9 +33,9 @@ if ( ! class_exists( 'WPST_URL_Tester' ) ) {
 					$code = wp_remote_retrieve_response_code( $response );
 
 					if ( $code < 400 ) {
-						$posts_success++;
+						$this->posts_success++;
 					} else {
-						$posts_failed++;
+						$this->posts_failed++;
 						$this->post_failures[] = array(
 							'url'  => $url,
 							'code' => $code
